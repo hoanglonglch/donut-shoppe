@@ -16,11 +16,65 @@
    =============================== */
 
 /* General */
+body{
+	background: #f2f3ee url("../images/bg-tile.gif");
+	color: #4b2707;
+	font-size: 14px;
 
+}
+
+/*Need to set width then you can align item center*/
+.container{
+	margin: 0 auto;
+	width: 924px;
+	padding: 30px 24px;
+}
 
 /* Typography */
+h1, h2{
+	color: #d17f38;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
 
+h1{
+	text-align: center;
+	padding:  0 0 20px;
+	background: url("../images/header-divider.png") bottom no-repeat;
+}
 
+h2{
+	font-size: 34px;
+}
+
+h3{
+	margin: 0;
+}
+
+p.lead{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: 10px 0;
+}
+
+p{
+	margin: 0;
+}
+
+a:link{
+
+}
+
+hr{
+	border: none;
+	height: 33px;
+	width: 333px;
+	background: url("../images/divider.png");
+	margin: 0 auto;
+}
 
 /* Header */
 
