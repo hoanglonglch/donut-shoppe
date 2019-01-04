@@ -127,7 +127,20 @@ header nav ul li#logo a:hover{
     background: url("../images/logo-hover.png") top center no-repeat;
 }
 /* Hero */
+#hero{
+    background: url("../images/bg-tile-yellow.gif");
+    position: relative;
+}
 
+#hero .large-ribbon{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    height: 190px;
+    width: 150px;
+    text-indent: -9999px;
+    background: url("../images/fresh-whole-ingredients.png") center no-repeat;
+}
 
 
 /* The Whole Story */
