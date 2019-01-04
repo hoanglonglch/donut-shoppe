@@ -91,11 +91,41 @@ hr{
 }
 
 
-
 /* Header */
+/*ToLearn
+    text-indent: -9999px; !* sends the text off-screen *!
+    outline: none;  !* prevents dotted line when link is active *!
+    line-height: 141px;
+    */
 
+header nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 141px;
+}
 
+header nav  ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 0px;
+}
 
+header nav  ul li a:hover{
+    background: url("../images/tiny-donut.png") top center no-repeat;
+}
+
+header nav ul li#logo a{
+    text-indent: -9999px; /* sends the text off-screen */
+    outline: none;  /* prevents dotted line when link is active */
+    display: inline-block;
+    width: 259px;
+    height: 141px;
+    background: url("../images/logo.png") top center no-repeat;
+}
+
+header nav ul li#logo a:hover{
+    background: url("../images/logo-hover.png") top center no-repeat;
+}
 /* Hero */
 
 
