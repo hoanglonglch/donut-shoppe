@@ -160,11 +160,48 @@ header nav ul li#logo a:hover{
 
 
 /* News & Events */
+#news-events article{
+    padding-left: 55px;
+    margin: 10px 10px;
+}
+article.news{
+    background: url("../images/icon-news.png") top left no-repeat;
+}
 
-
+article.event{
+    background: url("../images/icon-calendar.png") top left no-repeat;
+}
+#articles{
+    float: left;
+    width: 370px;
+}
+#feature-image{
+    float: left;
+}
 
 /* Footer */
+footer.main{
+    background: url("../images/bg-tile-brown.gif");
+}
 
+footer p{
+    color: white;
+}
+
+#uncopyright, #credits{
+    padding-left: 50px;
+    width: 240px;
+}
+
+#uncopyright{
+    float: left;
+    background: url("../images/icon-recycle.png") center left no-repeat;
+}
+#credits{
+    float: right;
+    padding: 10px 0px 50px 40px;
+    background: url("../images/icon-apple.png") top left no-repeat;
+}
 
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
