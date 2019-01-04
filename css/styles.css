@@ -16,9 +16,79 @@
    =============================== */
 
 /* General */
-
+body {
+	background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+	color: #4b2707;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 14px;
+	font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+}
 
 /* Typography */
+h1, h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #d17f38;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	background: url('../images/header-divider.png') bottom center no-repeat;
+    padding: 0 0 20px;
+}
+
+h1 em {
+	color: #4b2707;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p.lead {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: 10px 0;
+}
+
+p {
+	margin: 0;
+}
+
+a:link {
+	color: #d17f38;
+}
+
+a:visited {
+	color: #d17f38;
+}
+
+a:hover {
+	color: #4b2707;
+}
+
+.container{
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+
+hr{
+    border: none;
+    height: 33px;
+    width: 333px;
+    background: url("../images/divider.png") center center no-repeat;
+}
 
 
 
